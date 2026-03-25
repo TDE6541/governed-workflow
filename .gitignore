@@ -1,0 +1,28 @@
+# Node / TypeScript
+node_modules/
+**/node_modules/
+out/
+**/out/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# VS Code extension test/temp
+.vscode-test/
+
+# Local governed artifacts
+.governed/
+
+# Local Claude overrides
+.claude/settings.local.json
+
+# VSIX build outputs
+*.vsix
+
+# OS / editor noise
+.DS_Store
+Thumbs.db

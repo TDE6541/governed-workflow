@@ -1,0 +1,55 @@
+{
+  "name": "governed-workflow",
+  "displayName": "Governed Workflow",
+  "description": "Local-first governance layer for AI-assisted coding.",
+  "version": "0.2.0",
+  "publisher": "architect",
+  "author": "Timothy Deavenport",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TDE6541/governed-workflow.git"
+  },
+  "homepage": "https://github.com/TDE6541/governed-workflow#readme",
+  "bugs": {
+    "url": "https://github.com/TDE6541/governed-workflow/issues"
+  },
+  "keywords": [
+    "governance",
+    "workflow",
+    "hold",
+    "lifecycle",
+    "dashboard",
+    "session"
+  ],
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished",
+    "onCommand:governance.openPreflight"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "governance.openPreflight",
+        "title": "Governance: Open Dashboard",
+        "category": "Governance"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "npx -y @vscode/vsce package --out governed-workflow-0.2.0.vsix"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@types/vscode": "^1.90.0",
+    "typescript": "^5.5.4"
+  }
+}
