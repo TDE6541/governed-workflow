@@ -4,7 +4,6 @@
   "description": "Local-first governance layer for AI-assisted coding.",
   "version": "0.2.0",
   "publisher": "architect",
-  "author": "Timothy Deavenport",
   "license": "MIT",
   "repository": {
     "type": "git",
