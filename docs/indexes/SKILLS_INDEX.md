@@ -8,6 +8,11 @@ This index maps the portable governance skill pack.
 - `../../skills/fire-team-session-SKILL.md` for phase-gated execution and approval flow
 - `../../skills/governed-repo-init-SKILL.md` for governed bootstrap and repo scaffolding
 
+## Supplementary skills (v0.3.0)
+
+- `../../skills/governance-retrospective-SKILL.md` for post-session governance effectiveness review
+- `../../skills/absence-audit-SKILL.md` for expected-output omission verification
+
 ## Supporting resource pack
 
 - `../../resources/RESOURCE_PACK_NOTE.md`

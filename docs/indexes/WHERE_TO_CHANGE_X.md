@@ -45,6 +45,8 @@ Use this file as a fast change guide before editing.
 - `../../skills/hold-doctrine-SKILL.md`
 - `../../skills/fire-team-session-SKILL.md`
 - `../../skills/governed-repo-init-SKILL.md`
+- `../../skills/governance-retrospective-SKILL.md`
+- `../../skills/absence-audit-SKILL.md`
 - `../../resources/RESOURCE_PACK_NOTE.md`
 - `../../resources/WHY_THIS_KIT.md`
 - `../../resources/REPO_SKELETON.md`
